@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Bench Press",
+        "description": "Chest pressing exercise",
+        "category": "strength",
+        "muscle_group": "Chest"
+    },
+    {
+        "name": "Squat",
+        "description": "Lower body compound movement",
+        "category": "strength",
+        "muscle_group": "Legs"
+    },
+    {
+        "name": "Deadlift",
+        "description": "Posterior chain compound movement",
+        "category": "strength",
+        "muscle_group": "Back"
+    },
+    {
+        "name": "Pull Up",
+        "description": "Upper body pulling exercise",
+        "category": "strength",
+        "muscle_group": "Back"
+    },
+    {
+        "name": "Push Up",
+        "description": "Bodyweight chest exercise",
+        "category": "strength",
+        "muscle_group": "Chest"
+    },
+    {
+        "name": "Running",
+        "description": "Cardio endurance exercise",
+        "category": "cardio",
+        "muscle_group": "Full Body"
+    },
+    {
+        "name": "Cycling",
+        "description": "Lower body cardio workout",
+        "category": "cardio",
+        "muscle_group": "Legs"
+    },
+    {
+        "name": "Jump Rope",
+        "description": "Full body cardio exercise",
+        "category": "cardio",
+        "muscle_group": "Full Body"
+    },
+    {
+        "name": "Yoga Stretch",
+        "description": "Flexibility and mobility exercise",
+        "category": "flexibility",
+        "muscle_group": "Full Body"
+    },
+    {
+        "name": "Hamstring Stretch",
+        "description": "Stretch for hamstring flexibility",
+        "category": "flexibility",
+        "muscle_group": "Legs"
+    }
+]
