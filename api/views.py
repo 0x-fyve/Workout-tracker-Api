@@ -7,8 +7,11 @@ from rest_framework.views import APIView
 
 from .serializers import WorkoutPlanSerializer
 
-from .models import WorkoutPlan, WorkoutExercise, WorkoutLog, Exercise
+from .models import WorkoutPlan, WorkoutExercise, WorkoutLog
+from exercises.models import Exercise
+
 # Create your views here.
+
 class WorkoutCreateView(APIView):
 
     permission_classes = [IsAuthenticated]
@@ -72,3 +75,13 @@ class WorkoutCreateView(APIView):
             serializer.errors,
             status=status.HTTP_400_BAD_REQUEST,
         )
+    
+    
+
+    def get(self, request):
+
+        workouts = WorkoutPlan.objects.filter(user=request.user)
+
+        serializer = WorkoutPlanSerializer(workouts, many=True)
+
+        return Response(serializer.data)

@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
 from .models import (
-    Exercise,
     WorkoutPlan,
     WorkoutExercise,
     WorkoutLog,
 )
+from exercises.models import Exercise
 
 
 class ExerciseSerializer(serializers.ModelSerializer):
